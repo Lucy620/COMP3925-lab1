@@ -1,0 +1,132 @@
+{
+    "extractors": {},
+    "id": "5259-4848-bee1",
+    "name": "Lunon LUN",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "bb2b-4d80-b745",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "0032-4ffc-8940",
+                    "selector": ".pd-box",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".price-regular"
+                    ],
+                    "container_id": "bb2b-4d80-b745",
+                    "data": {
+                        "1bcc-45c5-b1e2": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "8030-4600-9c02",
+                            "required": false
+                        }
+                    },
+                    "id": "d389-47f8-9fcf",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .product-detail-actions > .not-same-price > .price-box > .global-primary",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" product-detail-actions \")]/*[contains(concat(\" \", @class, \" \"), \" not-same-price \")]/*[contains(concat(\" \", @class, \" \"), \" price-box \")]/*[contains(concat(\" \", @class, \" \"), \" global-primary \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".ProductDetail-description"
+                    ],
+                    "container_id": "bb2b-4d80-b745",
+                    "data": {
+                        "53ae-4ed8-9f89": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "8030-4600-9c02",
+                            "required": false
+                        }
+                    },
+                    "id": "1e57-4844-9bc4",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-description",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-description \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".MsoListParagraphCxSpFirst"
+                    ],
+                    "container_id": "bb2b-4d80-b745",
+                    "data": {
+                        "2f84-4fe9-a1cc": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "6d41-4692-9e77",
+                            "required": false
+                        }
+                    },
+                    "id": "0cc4-4ec6-8386",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-description > .MsoListParagraphCxSpFirst",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-description \")]/*[contains(concat(\" \", @class, \" \"), \" MsoListParagraphCxSpFirst \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image"
+                    ],
+                    "container_id": "bb2b-4d80-b745",
+                    "data": {
+                        "22a0-49cc-9450": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "c36d-47ce-9afb",
+                            "required": false
+                        }
+                    },
+                    "id": "44d2-440e-af3a",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": true,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-gallery \")]/ul/li/*[contains(concat(\" \", @class, \" \"), \" sl-lazy-image \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "0032-4ffc-8940",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/products/lunon-lun09-ultrasonic-cleaning-brush",
+    "version": "0.13.3"
+}

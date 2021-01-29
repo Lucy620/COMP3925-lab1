@@ -1,0 +1,40 @@
+{
+    "f967-4e4a-8250": {
+        "fields": {}, 
+        "name": "schema1"
+    }, 
+    "0032-4ffc-8940": {
+        "fields": {
+            "8030-4600-9c02": {
+                "id": "8030-4600-9c02", 
+                "name": "price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "cb6c-468b-8f8b": {
+                "id": "cb6c-468b-8f8b", 
+                "name": "http:http://localhost:9001/#/projects/hellobear2/spiders/www.hellobear.com.hk/samples/5259-4848-bee1/data/annotations/1e57-4844-9bc4|53ae-4ed8-9f89?url=https%3A%2F%2Fwww.hellobear.com.hk%2Fproducts%2Flunon-lun09-ultrasonic-cleaning-brush//localhost:9001/#/projects/hellobear2/spiders/www.hellobear.com.hk/samples/5259-4848-bee1/data/annotations/1e57-4844-9bc4|53ae-4ed8-9f89?url=https%3A%2F%2Fwww.hellobear.com.hk%2Fproducts%2Flunon-lun09-ultrasonic-cleaning-brushfield1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "6d41-4692-9e77": {
+                "auto_created": true, 
+                "id": "6d41-4692-9e77", 
+                "name": "field1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "c36d-47ce-9afb": {
+                "id": "c36d-47ce-9afb", 
+                "name": "image", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "Lunon LUN"
+    }
+}
